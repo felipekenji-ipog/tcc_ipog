@@ -1,0 +1,40 @@
+IBM: International Business Machines Corporation
+HP: HP Inc.
+CTSH: Cognizant Technology Solutions Corporation
+XRX: Xerox Holdings Corporation
+ACN: Accenture plc
+ORCL: Oracle Corporation
+DXC: DXC Technology Company
+SAP: SAP SE
+INTC: Intel Corporation
+MSFT: Microsoft Corporation
+GOOGL: Alphabet Inc.
+AMZN: Amazon.com, Inc.
+DELL: Dell Technologies Inc.
+TCS: Tata Consultancy Services Limited
+CSCO: Cisco Systems, Inc.
+AAPL: Apple Inc.
+INFY: Infosys Limited
+ADBE: Adobe Inc.
+CRM: Salesforce, Inc.
+META: Meta Platforms, Inc.
+NVDA: NVIDIA Corporation
+TSLA: Tesla, Inc.
+NFLX: Netflix, Inc.
+AMD: Advanced Micro Devices, Inc.
+QCOM: Qualcomm Incorporated
+SHOP: Shopify Inc.
+ZM: Zoom Video Communications, Inc.
+SPOT: Spotify Technology S.A.
+PLTR: Palantir Technologies Inc.
+TWLO: Twilio Inc.
+SQ: Block, Inc.
+SNAP: Snap Inc.
+UBER: Uber Technologies, Inc.
+PINS: Pinterest, Inc.
+NOW: ServiceNow, Inc.
+TEAM: Atlassian Corporation Plc
+DBX: Dropbox, Inc.
+NET: Cloudflare, Inc.
+DDOG: Datadog, Inc.
+SE: Sea Limited
