@@ -1,7 +1,3 @@
-FMP:
-    income-statement-growth: Demonstração de Resultados, com demonstrativos comparativos
-    financial-growth: Crescimento Financeiro
-
-Alpha Vantage:
-    REAL_GDP: Produto Interno Bruto
-    INFLATION: Inflação
+key-metrics
+REAL_GDP
+INFLATION
