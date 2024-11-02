@@ -1,18 +1,14 @@
 import json
 import numpy as np
-
-from enums import IndicatorClass
-
-# Nome da coluna do indicador analisado
-company_measure_colname = IndicatorClass.growthGrossProfitRatio.colname
+from enums import FileClass, ColClass
 
 # Nomes para a montagem do gráfico
-company_measure_plotname = IndicatorClass.growthGrossProfitRatio.plotname.strip("[]").lower()
-economic_indicator_plotname = IndicatorClass.inflation.plotname.strip("[]").lower()
+company_measure_plotname = FileClass.metricas_chaves.plotname.strip("[]").lower()
+economic_indicator_plotname = FileClass.inflation.plotname.strip("[]").lower()
 
 # Nomes dos arquivos JSON
-company_data_filename = IndicatorClass.growthGrossProfitRatio.filename
-economic_data_filename = IndicatorClass.inflation.filename
+company_data_filename = FileClass.metricas_chaves.filename
+economic_data_filename = FileClass.inflation.filename
 
 # Função para ler o arquivo JSON e extrair grossProfitRatio para todas as empresas
 def extract_company_performance_measures(filename):
@@ -24,7 +20,7 @@ def extract_company_performance_measures(filename):
         ratios[company] = {}
         for record in records:
             year = record['calendarYear']
-            gross_profit_ratio = record['growthGrossProfitRatio']
+            gross_profit_ratio = record['metricas_chaves']
             ratios[company][year] = gross_profit_ratio  # Armazenar o ratio por ano
     return ratios
 
